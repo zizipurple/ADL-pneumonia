@@ -60,12 +60,12 @@ pip install torch torchvision matplotlib seaborn scikit-learn
 
 Download the dataset from Kaggle - Chest X-Ray Images (Pneumonia)
 Unzip it and place it as follows:
-
+```
 chest_xray/
 ├── train/
 ├── val/
 └── test/
-
+```
 Each subdirectory should contain two folders: NORMAL and PNEUMONIA.
 
 ⸻
