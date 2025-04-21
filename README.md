@@ -5,24 +5,24 @@ This project applies **transfer learning** with multiple pre-trained deep learni
 ## 📁 Project Structure
 
 chest_xray_classification/
-├── chest_xray/                      # Dataset with subfolders: train, val, test
-│   ├── train/                       # Training images
-│   ├── val/                         # Validation images
-│   └── test/                        # Test images
+├── chest_xray/
+│   ├── train/
+│   ├── val/
+│   └── test/
 │
-├── notebooks/                       # Jupyter notebooks for each model
+├── notebooks/                       
 │   ├── vgg16_chest_xray.ipynb
 │   ├── resnet_chest_xray.ipynb
 │   ├── efficientnet_chest_xray.ipynb
 │   └── chexnet_chest_xray.ipynb
 │
-├── best_vgg16_chest_xray.pth       # Saved model weights
+├── best_vgg16_chest_xray.pth
 ├── best_resnet_chest_xray.pth
 ├── best_efficientnet_chest_xray.pth
 ├── best_chexnet_chest_xray.pth
 │
-├── README.md                        # Project documentation
-└── requirements.txt                 # Python dependencies
+├── README.md
+└── requirements.txt
 
 
 ## 📌 Models Implemented
@@ -78,6 +78,8 @@ Each notebook is self-contained and follows this general structure:
 	4.	Train the Model
 	5.	Evaluate on Validation and Test Set
 	6.	Visualize Results (Loss, Accuracy, Confusion Matrix, Predictions)
+
+⸻
 
 🔧 Launch Jupyter Notebook
 
