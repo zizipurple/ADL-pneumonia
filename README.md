@@ -4,6 +4,7 @@ This project applies **transfer learning** with multiple pre-trained deep learni
 
 ## 📁 Project Structure
 
+```
 chest_xray_classification/
 ├── chest_xray/
 │   ├── train/
@@ -23,7 +24,7 @@ chest_xray_classification/
 │
 ├── README.md
 └── requirements.txt
-
+```
 
 ## 📌 Models Implemented
 
