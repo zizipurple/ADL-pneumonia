@@ -42,12 +42,12 @@ chest_xray_classification/
 git clone https://github.com/your-username/chest-xray-classification.git
 cd chest-xray-classification
 
-	2.	Create a virtual environment (optional but recommended):
+2. **Create a virtual environment (optional but recommended):**
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-	3.	Install required packages:
+3. **Install required packages:**
 
 pip install -r requirements.txt
 
@@ -55,7 +55,7 @@ If requirements.txt is not available, install packages manually:
 
 pip install torch torchvision matplotlib seaborn scikit-learn
 
-	4.	Download and organize the dataset:
+4. **Download and organize the dataset:**
 
 Download the dataset from Kaggle - Chest X-Ray Images (Pneumonia)
 Unzip it and place it as follows:
