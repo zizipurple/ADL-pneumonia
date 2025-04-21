@@ -5,25 +5,24 @@ This project applies **transfer learning** with multiple pre-trained deep learni
 ## 📁 Project Structure
 
 chest_xray_classification/
+├── chest_xray/                      # Dataset with subfolders: train, val, test
+│   ├── train/                       # Training images
+│   ├── val/                         # Validation images
+│   └── test/                        # Test images
 │
-├── chest_xray/               # Dataset folder with train/val/test subfolders
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-├── notebooks/
+├── notebooks/                       # Jupyter notebooks for each model
 │   ├── vgg16_chest_xray.ipynb
 │   ├── resnet_chest_xray.ipynb
 │   ├── efficientnet_chest_xray.ipynb
 │   └── chexnet_chest_xray.ipynb
 │
-├── best_vgg16_chest_xray.pth       # Saved model checkpoints
+├── best_vgg16_chest_xray.pth       # Saved model weights
 ├── best_resnet_chest_xray.pth
 ├── best_efficientnet_chest_xray.pth
 ├── best_chexnet_chest_xray.pth
 │
-├── README.md
-└── requirements.txt
+├── README.md                        # Project documentation
+└── requirements.txt                 # Python dependencies
 
 
 ## 📌 Models Implemented
@@ -131,15 +130,7 @@ Each notebook generates:
 
 ⸻
 
-📜 License
-
-This project is licensed under the MIT License.
-
-⸻
-
 🙋‍♂️ Author
 
-Turrag Dewan – SUTD – Applied Deep Learning, Term 8
-Project guidance: Prof. [Instructor Name]
-
-Let me know if you'd like this exported as a real file, or if you want different formatting like a shorter version for GitHub!
+Brian Lim Yong Jenq, Khairul Shabir, Tan Zi Hui, Turrag Dewan – SUTD – Applied Deep Learning, Term 8
+Project guidance: Prof. Priti 
