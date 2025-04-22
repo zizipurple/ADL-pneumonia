@@ -90,6 +90,7 @@ Run:
 jupyter notebook
 
 Then open one of the following notebooks:
+
 	•	notebooks/vgg16_chest_xray.ipynb
 	•	notebooks/resnet_chest_xray.ipynb
 	•	notebooks/efficientnet_chest_xray.ipynb
@@ -102,6 +103,7 @@ You can modify num_epochs, batch_size, and learning rate inside the notebook as 
 🧠 Early Stopping & LR Scheduler
 
 The training loop uses:
+
 	•	ReduceLROnPlateau: reduces learning rate if validation accuracy plateaus
 	•	Custom Early Stopping logic to stop training if no improvement is seen after N epochs
 
@@ -122,6 +124,7 @@ These techniques help combat overfitting, especially on small datasets like this
 📊 Example Visualization
 
 Each notebook generates:
+
 	•	Training vs Validation Loss / Accuracy curves
 	•	Prediction Samples with confidence scores
 	•	Class Distribution Plots
