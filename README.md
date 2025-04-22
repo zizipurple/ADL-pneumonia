@@ -73,6 +73,7 @@ Each subdirectory should contain two folders: NORMAL and PNEUMONIA.
 🚀 Running the Notebooks
 
 Each notebook is self-contained and follows this general structure:
+
 	1.	Import Libraries
 	2.	Load and Preprocess Data
 	3.	Define Model Architecture
