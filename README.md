@@ -12,18 +12,14 @@ chest_xray_classification/
 │   └── test/
 │
 ├── notebooks/                       
-│   ├── vgg16_chest_xray.ipynb
-│   ├── resnet_chest_xray.ipynb
-│   ├── efficientnet_chest_xray.ipynb
-│   └── chexnet_chest_xray.ipynb
+│   ├── VGG_turrag.ipynb
+│   ├── RESNET_zihui.ipynb
+│   ├── EFFICIENTNET_khairushabir.ipynb
+│   └── CHEXNET_brian.ipynb
 │
-├── best_vgg16_chest_xray.pth
-├── best_resnet_chest_xray.pth
-├── best_efficientnet_chest_xray.pth
-├── best_chexnet_chest_xray.pth
+├── CHEXNET_winningmodel.pth
 │
 ├── README.md
-└── requirements.txt
 ```
 
 ## 📌 Models Implemented
@@ -50,11 +46,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install required packages:**
 
-pip install -r requirements.txt
-
-If requirements.txt is not available, install packages manually:
-
+```
 pip install torch torchvision matplotlib seaborn scikit-learn
+```
 
 4. **Download and organize the dataset:**
 
