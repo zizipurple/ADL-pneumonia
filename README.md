@@ -30,10 +30,10 @@ chest_xray_classification/
 
 | Model         | Base Architecture  | Dataset Used      | Transfer Learning | Final Layer Modifications |
 |---------------|--------------------|-------------------|-------------------|----------------------------|
-| VGG16         | `torchvision.models.vgg16` | chest_xray (Kermany et al.) | Yes ✅         | Fully Connected + Sigmoid |
-| ResNet        | `torchvision.models.resnet18` / `resnet50` | Same | Yes ✅ | Replaced final FC layer |
-| EfficientNet  | `efficientnet_b0` from torchvision | Same | Yes ✅ | Custom classifier |
-| CheXNet       | `densenet121` pre-trained on ChestX-ray14 | Same | Yes ✅ | Custom classifier |
+| VGG16         | `torchvision.models.vgg16` | chest_xray (Kermany et al.) | Fully Connected + Sigmoid |
+| ResNet        | `torchvision.models.resnet18` / `resnet50` | Same | Replaced final FC layer |
+| EfficientNet  | `efficientnet_b0` from torchvision | Same | Custom classifier |
+| CheXNet       | `densenet121` pre-trained on ChestX-ray14 | Same | Custom classifier |
 
 
 ## 📦 Setup Instructions
