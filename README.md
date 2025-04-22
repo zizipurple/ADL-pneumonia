@@ -109,6 +109,7 @@ These techniques help combat overfitting, especially on small datasets like this
 ⸻
 
 📈 Evaluation Metrics
+
 	•	Accuracy
 	•	Binary Cross Entropy Loss
 	•	Confusion Matrix
@@ -127,6 +128,7 @@ Each notebook generates:
 ⸻
 
 💡 Tips
+
 	•	Run on GPU for best performance (e.g., Google Colab or local CUDA setup)
 	•	Ensure all transformations match model input expectations (e.g., 224x224 for VGG16)
 	•	You can fine-tune later layers for potentially better accuracy
@@ -136,4 +138,5 @@ Each notebook generates:
 🙋‍♂️ Author
 
 Brian Lim Yong Jenq, Khairul Shabir, Tan Zi Hui, Turrag Dewan – SUTD – Applied Deep Learning, Term 8
+
 Project guidance: Prof. Priti 
