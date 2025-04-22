@@ -28,7 +28,7 @@ chest_xray_classification/
 
 ## 📌 Models Implemented
 
-| Model         | Base Architecture  | Dataset Used      | Transfer Learning | Final Layer Modifications |
+| Model         | Base Architecture  | Dataset Used      | Final Layer Modifications |
 |---------------|--------------------|-------------------|-------------------|----------------------------|
 | VGG16         | `torchvision.models.vgg16` | chest_xray (Kermany et al.) | Fully Connected + Sigmoid |
 | ResNet        | `torchvision.models.resnet18` / `resnet50` | Same | Replaced final FC layer |
