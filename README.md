@@ -137,4 +137,4 @@ Each notebook generates:
 
 Brian Lim Yong Jenq, Khairul Shabir, Tan Zi Hui, Turrag Dewan – SUTD – Applied Deep Learning, Term 8
 
-Project guidance: Prof. Priti 
+Project guidance: Prof. Pritee Agrawal
